@@ -35,7 +35,7 @@ This JavaScript file detects ad-blockers, bot activity, and various tracking scr
 Include the script on your website:
 
 ```html
-<script src="adblock.js"></script>
+<script src="adblockChecker.js"></script>
 ```
 
 ### Configuration
