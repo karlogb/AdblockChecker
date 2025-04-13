@@ -186,9 +186,9 @@
         }
 
         function checkGTMBlocked(callback) {
-            checkScriptBlocked('https://www.googletagmanager.com/gtm.js?id=GTM-TXQBZMR5', function(gtmJsBlocked) {
+            checkScriptBlocked('https://www.googletagmanager.com/gtm.js?id=GTM-TFV22TW', function(gtmJsBlocked) {
                 var xhr = new XMLHttpRequest();
-                var gtmCollectURL = 'https://www.googletagmanager.com/gtm.js?id=GTM-TXQBZMR5'; // Example GTM request
+                var gtmCollectURL = 'https://www.googletagmanager.com/gtm.js?id=GTM-TFV22TW'; // Example GTM request
         
                 xhr.open("GET", gtmCollectURL, true);
                 xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
